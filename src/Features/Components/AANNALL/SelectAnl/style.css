@@ -1,0 +1,118 @@
+.All_Choch{
+    position: relative;
+    top: 120px;
+    background: transparent;
+    color: #fff;
+    display: flex;
+    align-items: stretch;
+    gap: 1rem;
+    padding: 0 1rem;
+    /* box-shadow: 0 1rem 2rem rgba(0,0,0,0.2); */
+}
+
+.All_Choch h1{
+    color: #111;
+    font-size: 80px;
+}
+
+.L_Choch select{
+  position: relative;
+  background: #fff;
+  border: 0;
+  border-radius: 50px;
+  font-size: 12px;
+  padding: 15px;
+  top: 90px;
+  height: 45px;
+  width: 117px;
+}
+
+.searchInputs1 input{
+  position: relative;
+  background: #fff;
+  border: 0;
+  border-radius: 50px;
+  font-size: 12px;
+  padding: 15px;
+  top: 90px;
+  height: 15px;
+  width: 110px;
+}
+
+.searchInputs2 input{
+  position: relative;
+  background: #fff;
+  border: 0;
+  border-radius: 50px;
+  font-size: 12px;
+  padding: 15px;
+  top: 90px;
+  height: 15px;
+  width: 110px;
+  transition: 0.5s;
+}
+
+.C_Choch select{
+    position: relative;
+    background: #fff;
+    border: 0;
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 15px;
+    top: 90px;
+    height: 45px;
+    width: 120px;
+  }
+
+  .C_Choch2 select{
+    position: relative;
+    background: #fff;
+    border: 0;
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 15px;
+    top: 90px;
+    height: 45px;
+    width: 100px;
+  }
+
+  .G_Choch select{
+    position: relative;
+    background: #fff;
+    border: 0;
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 15px;
+    top: 90px;
+    height: 45px;
+    width: 117px;
+  }
+
+  .LI_Choch select{
+    position: relative;
+    background: #fff;
+    border: 0;
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 15px;
+    top: 90px;
+    height: 45px;
+    width: 117px;
+  }
+
+  .buttonsend_da button{
+    background: #DF9AC5;
+    position: relative;
+    background: #fff;
+    border: 0;
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 15px;
+    top: 90px;
+    height: 45px;
+    width: 117px;
+  }
+
+  .buttonsend_da button:hover{
+    background: #DF7DBA;
+  }

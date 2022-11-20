@@ -1,0 +1,140 @@
+.modtable table {
+  position: relative;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+ 
+
+  margin-left: 20px;
+}
+.modtable {
+  height: 190px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 220px;
+  max-width: 640px;
+  min-width: 450px;
+
+}
+
+.maintable table {
+  position: relative;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+
+  margin-left: 20px;
+}
+.maintable {
+  height: 250px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 10px;
+  max-width: 640px;
+  min-width: 450px;
+}
+/* .maintable table tr{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+} */
+
+.maintable table th {
+  border: 1px solid #dddddd;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: left;
+  padding: 5px;
+}
+
+.modtable table th {
+  border: 1px solid #dddddd;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: left;
+  padding: 5px;
+}
+
+.maintable table td p {
+  font-size: 15px;
+  padding: 5px;
+}
+.modtable table td p {
+  font-size: 15px;
+  padding: 5px;
+}
+
+/* .maintable table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.maintable table tr:nth-child(odd) {
+  background-color: #fff;
+} */
+
+.maintable table th {
+  background-color: #ff9999;
+}
+.modtable table th {
+  background-color: #ff9999;
+}
+
+.maintable table tr:first-child th {
+  position: sticky;
+  top: 0;
+}
+.modtable table tr:first-child th {
+  position: sticky;
+  top: 0;
+}
+
+.maintable table .FirstBar {
+  background: #ffcdcd;
+}
+.modtable table .FirstBar {
+  background: #ffcdcd;
+}
+
+.maintable table td {
+  background: #ffe3e3;
+}
+.modtable table td {
+  background: #ffe3e3;
+}
+
+.box_value {
+  position: fixed;
+
+  left: 56%;
+  margin-top: -490px;
+  width: 100%;
+
+  height: 500px;
+  background: #e4b97a;
+  color: #111;
+  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: auto;
+  border-width: 2px;
+  border: solid #000;
+  border-radius: 4px;
+
+  max-width: 40%;
+}
+
+.box_value h3 {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  text-align: left;
+}
+
+.box_value img {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
+.box_value video {
+  border-radius: 4px;
+  border: solid #000;
+}

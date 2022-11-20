@@ -1,0 +1,134 @@
+.box_compare_class {
+  position: fixed;
+  top: 150px;
+
+  right: 20px;
+  width: 17%;
+  min-width: 250px;
+  height: 500px;
+
+  background: #e4b97a;
+  color: #111;
+
+  overflow-y: auto;
+  
+  border-width: 15px;
+  border-radius: 5px;
+  border-color: #111;
+  transition: 0.5s;
+}
+child {
+  display: inline-block;
+}
+
+.PutInline {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+.inputStlYe {
+  border: 5px solid rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.colorS {
+  width: 20px;
+  height: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.NumberOfStudents {
+  position: fixed;
+  top: 20%;
+  margin-left: 80%;
+  margin-top: 24.8%;
+  width: 17%;
+  height: 25%;
+  border-radius: 1px;
+  background: #ffa07a;
+  color: #111;
+  overflow: hidden;
+  overflow-y: auto;
+  border-width: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.5s;
+  text-align: left;
+}
+
+.NumberOfStudents p {
+  margin-left: 30px;
+  transition: 0.5s;
+}
+
+.NumberOfStudents::-webkit-scrollbar {
+  display: none;
+}
+
+.box_compare_class.Top {
+  width: 0.01%;
+  height: 0.01%;
+  transition: 0.5s;
+}
+
+.NumberOfStudents.Top {
+  top: -38%;
+  transition: 0.75s;
+  margin-left: 77%;
+  width: 20%;
+  height: 10%;
+}
+
+.NumberOfStudents.Top p {
+  font-size: 10px;
+  transition: 0.5s;
+}
+
+.NumberOfStudents.Top p:nth-child(1) {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.NumberOfStudents.Top p:nth-child(2) {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 5%;
+}
+
+.NumberOfStudents.Top p:nth-child(3) {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 50%;
+}
+
+.NumberOfStudents.Top p:nth-child(4) {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 50%;
+}
+
+.Count_DayBox.Top {
+  position: fixed;
+  top: -26%;
+  margin-left: 77%;
+  margin-top: 24.8%;
+  width: 20%;
+  height: 65%;
+  border-radius: 1px;
+  background: #ffa07a;
+  color: #111;
+  overflow: hidden;
+  overflow-y: auto;
+  border-width: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.5s;
+  text-align: left;
+}

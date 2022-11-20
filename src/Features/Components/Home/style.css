@@ -1,0 +1,84 @@
+
+.searchIcon {
+  height: 33px;
+  width: 100%;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  max-width: 20px;
+ 
+}
+.rotate {
+  
+  animation: rotation 3s infinite linear;
+  margin-top: 300px;
+ 
+  
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* .Navbard {
+    /* background: linear-gradient(45deg, #FEC8D8,#FCF695, #FFDFD3); 
+    position: absolute;
+    width: 102.4%;
+    height: 150px;
+    margin-top: -17px;
+    margin-left: -16px;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
+} */
+
+/*
+input:focus{
+    outline: none;
+}
+
+.searchIcon svg{
+    font-size: 35px;
+}
+
+.dataResult{
+    margin-top: 5px;
+    width: 300px;
+    height: 200px;
+    background: #fff;
+    box-shadow: rgba(0,0,0,35)0px 5px 15 px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.dataResult::-webkit-scrollbar{
+    display: none;
+}
+
+.dataResult .dataItem{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: #111;
+}
+
+.dataItem p {
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background: lightgray;
+}
+
+#clearGtn{
+    cursor: pointer;
+} */
